@@ -20,5 +20,15 @@ int main()
 }
 printf("\n The Smallest Number From the Array is: %d", minimum);
 
+
+    for(int i=0; i<5; i++)
+
+{
+    if(minimum<array1[i])
+    {minimum=array1[i];}
+}
+printf("\n The largest Number From the Array is: %d", minimum);
+
+
     return 0;
 }
